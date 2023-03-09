@@ -955,7 +955,7 @@ body p {
     padding: 2rem;
   }
   .imagenes-galeria img {
-    height: 15rem;
+    height: 14.5rem;
   }
   .contacto {
     background-position: 20%;
@@ -976,7 +976,7 @@ body p {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.6117647059);
     width: 100%;
-    height: 200vw;
+    height: 230vw;
     top: 0;
     display: flex;
     flex-direction: column;

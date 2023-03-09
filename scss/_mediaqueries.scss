@@ -571,7 +571,7 @@
 
     .imagenes-galeria{
         img{
-            height: 15rem;
+            height: 14.5rem;
         }
     }
 
@@ -602,7 +602,7 @@
     position: fixed;
     background-color: #0000009c;
     width: 100%;
-    height: 200vw;
+    height: 230vw;
     top: 0;
     @include centrado-column;
     transform: translate(100%);

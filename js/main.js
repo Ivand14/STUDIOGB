@@ -55,3 +55,14 @@ const menu=()=>{
 }
 
 window.addEventListener('scroll',menu)
+
+window.addEventListener('load',()=>{
+    const load=document.querySelector('#load')
+    const body=document.querySelector('#body')
+    const contLoader=document.querySelector('.contLoader')
+    contLoader.style.display='none';
+    load.style.display='none';
+    body.style.display='flex,column';
+    body.classList.remove('hidden');
+    menu()
+})
